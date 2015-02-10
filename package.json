@@ -1,6 +1,6 @@
 {
   "name": "less-inheritance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Determine the import inheritance hierarchy of LESS files.",
   "url": "https://github.com/Craga89/less-imports-inheritance",
   "main": "lib/index.js",
