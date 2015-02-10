@@ -14,7 +14,7 @@
     "url": "http://github.com/Craga89/less-imports-inheritance"
   },
   "engines": {
-    "node": ">=0.8.x"
+    "node": ">=0.10.x"
   },
   "keywords": [
     "less",
