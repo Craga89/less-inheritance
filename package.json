@@ -1,5 +1,5 @@
 {
-  "name": "less-imports-inheritance",
+  "name": "less-inheritance",
   "version": "1.0.0",
   "description": "Determine the import inheritance hierarchy of LESS files.",
   "url": "https://github.com/Craga89/less-imports-inheritance",
