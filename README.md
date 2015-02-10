@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/Craga89/less-inheritance.svg)](https://travis-ci.org/Craga89/less-inheritance)
+[![Dependency Status](https://david-dm.org/craga89/less-inheritance.svg)](https://david-dm.org/craga89/less-inheritance)
+
+
 # less-imports-dependants
 This module interfaces with the LESS Parser to provide you with two utility methods:
 
