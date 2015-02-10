@@ -1,11 +1,13 @@
 # less-imports-dependants
 This module interfaces with the LESS Parser to provide you with two utility methods:
 
-	* `Promise: getImports(file[, options])` - Retrieve a *deep* list of all `@import`'d files for a given `.less` file and it's descendants
-	* `Promise: getDependants(file[, options])` - Retrieve a list of all files within `options.baseDir` which depend on this `.less` file i.e. `@import` it.
+* `Promise: getImports(file[, options])` - 
+	* Retrieve a *deep* list of all `@import`'d files for a given `.less` file and it's descendants
+* `Promise: getDependants(file[, options])` - 
+	* Retrieve a list of all files within `options.baseDir` which depend on this `.less` file i.e. `@import` it.
 
 ## Usage
-
+Assuming we have an LESS file structure with the following `@import` graph below...
 ```less
 //- main.less 
 @import 'import1.less';
@@ -20,8 +22,7 @@ This module interfaces with the LESS Parser to provide you with two utility meth
 @import 'import2a.less';
 ```
 
-Assuming the `@import` graph above...
-
+### `Promise: getImports(file[, options])`
 ```javascript
 var lessImports = require('less-imports-dependants');
 
@@ -39,6 +40,7 @@ lessImports.getImports('main.less').then(function(result) {
 ]
 ```
 
+### `Promise: getDependants(file[, options])`
 ```javascript
 var lessImports = require('less-imports-dependants');
 
