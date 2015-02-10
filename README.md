@@ -2,7 +2,7 @@
 [![Dependency Status](https://david-dm.org/craga89/less-inheritance.svg)](https://david-dm.org/craga89/less-inheritance)
 
 
-# less-imports-dependants
+# less-inheritance
 This module interfaces with the LESS Parser to provide you with two utility methods:
 
 * `Promise: getImports(file[, options])`
