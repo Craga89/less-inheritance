@@ -28,7 +28,7 @@ Assuming we have an LESS file structure with the following `@import` graph below
 
 ### `Promise: getImports(file[, options])`
 ```javascript
-var lessImports = require('less-imports-dependants');
+var lessImports = require('less-inheritance');
 
 lessImports.getImports('main.less').then(function(result) {
 	console.log(result);
@@ -46,7 +46,7 @@ lessImports.getImports('main.less').then(function(result) {
 
 ### `Promise: getDependants(file[, options])`
 ```javascript
-var lessImports = require('less-imports-dependants');
+var lessImports = require('less-inheritance');
 
 lessImports.getDependants('import1a.less').then(function(result) {
 	console.log(result);

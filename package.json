@@ -2,7 +2,7 @@
   "name": "less-inheritance",
   "version": "1.0.1",
   "description": "Determine the import inheritance hierarchy of LESS files.",
-  "url": "https://github.com/Craga89/less-imports-inheritance",
+  "url": "https://github.com/Craga89/less-inheritance",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/Craga89/less-imports-inheritance"
+    "url": "http://github.com/Craga89/less-inheritance"
   },
   "engines": {
     "node": ">=0.10.x"
@@ -25,18 +25,17 @@
   "author": "Craig Michael Thompson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Craga89/less-imports-inheritance/issues"
+    "url": "https://github.com/Craga89/less-inheritance/issues"
   },
-  "homepage": "https://github.com/Craga89/less-imports-inheritance",
+  "homepage": "https://github.com/Craga89/less-inheritance",
   "dependencies": {
     "glob": "^4.3.5",
-    "less": "^2.3.1"
+    "less": "^2.4.0",
+    "6to5-runtime": "^3.6.4"
   },
   "devDependencies": {
-    "6to5": "^3.5.3",
-    "6to5-runtime": "^3.5.3",
+    "6to5": "^3.6.4",
     "colors": "^1.0.3",
-    "core-js": "^0.5.1",
     "mocha": "^2.1.0"
   }
 }
